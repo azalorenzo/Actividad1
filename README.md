@@ -15,6 +15,15 @@ Este repositorio contiene los ejercicios realizados para la Actividad 1 de la ma
 - Ejercicio 8: "Horario de Clases"
 - Ejercicio 9: Formulario de contacto
 - Ejercicio 10: Calculadora que convierte grados Celsius a Fahrenheit.
+- Ejercicio 11: Conversión de Kilómetros a Millas
+- Ejercicio 12: Conversión de Pesos Mexicanos (MXN) a Dólares Estadounidenses (USD)
+- Ejercicio 13: Verificador de Edad para Votar
+- Ejercicio 14: Cálculo de Número Mayor, Menor y Promedio
+- Ejercicio 15: Registro de Estudiantes y Cálculo de Calificaciones
+- Ejercicio 16: Calculadora de Números (Operaciones Básicas) utilizando
+  Funciones Flecha en JavaScript
+- Ejercicio 17: Gestión de Tareas Pendientes con JSON, Local Storage, Funciones, Closures y Scope
+- Ejercicio 18: Manipulación del DOM con Bootstrap
 
 ## Tecnologías
 

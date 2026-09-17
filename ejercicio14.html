@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 14</title>
+    <link rel="stylesheet" href="css/ejercicio14.css" />
+    <script src="js/ejercicio14.js"></script>
+  </head>
+  <body>
+    <div class="contenedor">
+      <h1>Verificador</h1>
+      <div class="contenedorInterno">
+        <label>Ingrese una serie de números (separados por comas): </label>
+        <input type="text" id="edad_Input" />
+        <p id="advertencia"></p>
+        <button onclick="calcular()">Calcular</button>
+        <label class="labelResultado">Numero mayor:</label>
+        <input type="text" id="resultadoMaximo" readonly />
+        <label class="labelResultado">Numero menor:</label>
+        <input type="text" id="resultadoMinimo" readonly />
+        <label class="labelResultado">Promedio:</label>
+        <input type="text" id="resultadoPromedio" readonly />
+      </div>
+    </div>
+  </body>
+</html>

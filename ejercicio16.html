@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 16</title>
+    <link rel="stylesheet" href="css/ejercicio16.css" />
+    <script src="js/sweetalert2.all.min.js"></script>
+    <script src="js/ejercicio16.js"></script>
+  </head>
+  <body>
+    <div class="contenedor">
+      <h1>Calculadora</h1>
+      <div class="contenedorNumeros">
+        <div class="campo">
+          <label>Ingrese el primer número:</label>
+          <input type="text" id="numero1" />
+        </div>
+        <div class="campo">
+          <label>Ingrese el segundo número:</label>
+          <input type="text" id="numero2" />
+        </div>
+      </div>
+
+      <label>Escoja una operación:</label>
+      <div class="contenedorOperaciones">
+        <div class="operacion">
+          <button onclick="calcularOperacion('suma')">Suma (+)</button>
+        </div>
+        <div class="operacion">
+          <button onclick="calcularOperacion('resta')">Resta (-)</button>
+        </div>
+        <div class="operacion">
+          <button onclick="calcularOperacion('multiplicacion')">Multiplicación (*)</button>
+        </div>
+        <div class="operacion">
+          <button onclick="calcularOperacion('division')">División (/)</button>
+        </div>
+      </div>
+      <label>Resultado:</label>
+      <input type="text" id="resultado" readonly />
+    </div>
+  </body>
+</html>

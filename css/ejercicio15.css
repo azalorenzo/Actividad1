@@ -1,0 +1,93 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(246, 220, 190);
+}
+
+.contenedor {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.contenedorRegistro {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  padding: 1ch;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+}
+
+.campo label {
+  height: 50px;
+  white-space: nowrap;
+}
+
+.campo2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.campo2 label {
+  width: 500px;
+  text-align: end;
+}
+
+.campo2 input {
+  width: 240px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.contenedorBotones {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
+
+.contenedorBotones button {
+  margin: 30px 0;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  font-style: oblique;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 60px;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+input {
+  font-weight: bold;
+  font-size: 14px;
+  display: block;
+  margin: 0 auto;
+}
+
+#advertencia {
+  color: red;
+  text-align: center;
+}
